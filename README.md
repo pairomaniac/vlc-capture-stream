@@ -107,7 +107,7 @@ Edit the `DEVICE_NAME` variable near the top of the script:
 # Original (Elgato HD60 X):
 DEVICE_NAME="Elgato HD60 X"
 ```
-
+https://github.com/pairomaniac/vlc-capture-stream
 The script will automatically detect video and audio devices matching this name.
 
 ### Check Supported Resolutions
@@ -140,5 +140,5 @@ COLOR_ADJUST="--video-filter=adjust --contrast=1.15 --brightness=1.1"
 ## Limitations
 
 - **HDR Capture**: HDR passthrough not available on Linux to my knowledge
-- **Audio Latency**: Configured for 20ms buffering. Adjust `--live-caching`, `--v4l2-caching`, and `--alsa-caching` values if needed
+- **Audio Latency**: Configured for 20ms buffering. Adjust `--live-caching` value if needed
 - **DPI Scaling**: When using desktop scaling above 100%, the window might be larger than expected
