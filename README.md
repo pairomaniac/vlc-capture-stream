@@ -2,7 +2,7 @@
 
 A Bash script to make Discord capture card streaming easier on Linux, since the built-in functionality is broken. Only tested with Elgato HD60 X - check **Adapting for Other Capture Cards** for other uses.
 
-<img width="388" height="387" alt="image" src="https://github.com/user-attachments/assets/dadc9bbd-ac1a-42f7-a4cb-9bfd1f83857d" />
+<img width="320" height="320" alt="image" src="https://github.com/user-attachments/assets/dadc9bbd-ac1a-42f7-a4cb-9bfd1f83857d" />
 
 ## Features
 
