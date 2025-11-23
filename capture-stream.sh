@@ -48,8 +48,6 @@ if [ -z "$AUDIO_ID" ]; then
     exit 1
 fi
 
-echo "$DEVICE_NAME NOT FOUND"
-
 # Function to check if window rule exists
 rule_exists() {
     grep -q "Description=$1" ~/.config/kwinrulesrc 2>/dev/null
